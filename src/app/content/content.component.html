@@ -1,1 +1,44 @@
-<p>content works!</p>
+
+<head>
+
+  <title>Formulario de Incidencias</title>
+</head>
+<body>
+  <div class="form-container">
+    <form>
+      <h1>Formulario de Incidencias</h1>
+      <label for="nombre-alumno">Nombre del Alumno:</label>
+      <input type="text" id="nombre-alumno" name="nombre-alumno" required>
+      <br><br>
+      <label for="apellido-paterno">Apellido Paterno:</label>
+      <input type="text" id="apellido-paterno" name="apellido-paterno" required>
+      <br><br>
+      <label for="apellido-materno">Apellido Materno:</label>
+      <input type="text" id="apellido-materno" name="apellido-materno" required>
+      <br><br>
+      <label for="grado">Grado:</label>
+      <input type="text" id="grado" name="grado" required>
+      <br><br>
+      <label for="grupo">Grupo:</label>
+      <input type="text" id="grupo" name="grupo" required>
+      <br><br>
+      <label for="turno">Turno:</label>
+      <input type="text" id="turno" name="turno" required>
+      <br><br>
+      <label for="fecha-hora">Fecha y Hora:</label>
+      <input type="datetime-local" id="fecha-hora" name="fecha-hora" required>
+      <br><br>
+      <label for="nombre-profesor">Nombre del Profesor:</label>
+      <select id="nombre-profesor" name="nombre-profesor" required>
+        <option value="" disabled selected>Seleccione el nombre del profesor</option>
+        <option value="profesor1">Profesor 1</option>
+        <option value="profesor2">Profesor 2</option>
+        <option value="profesor3">Profesor 3</option>
+      </select>
+      <br><br>
+      <label for="tipo-incidencia">Tipo de Incidencia:</label>
+      <br>
+      <input type="checkbox" id="tipo-incidencia-a" name="tipo-incidencia" value="Indisciplina">
+      <label for="tipo-incidencia-a">Indisciplina</label>
+      <br>
+      <input type="checkbox" id="tipo-incidencia-b" name="tipo-incidencia" value="Falta">
