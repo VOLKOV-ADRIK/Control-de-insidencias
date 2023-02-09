@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #006f75;
+    color: white;
+    padding: 1rem;
+  }
+  
+  img {
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  @media (max-width: 800px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  
+  /*usa la fuente "Open Sans" y media queries CSS para asegurarse de que el header se vea bien en diferentes tamaños de pantalla.*/
